@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    /* overflow-y: hidden; */
+    /* color: #1c1f4c; */
+}
+
+body {
+    background-color: #edebd9;
+}
+
+.row {
+    /* border: 1px solid #037272; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 1em;
+    text-align: center;
+
+}
+
+.col {
+    width: 100%;
+    /* border: 1px solid #037272; */
+    padding: 0.5em 0;
+
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #1c1f4c;
+
+}
+
+.card {
+    box-shadow: 0 0 1em #1c1f4c;
+    padding: 3.5em 1em;
+    border-radius: 5px;
+    margin: 0 0.5em;
+}
+
+.card .img {
+    padding: 0.5em;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: #fec20f;
+    margin: 0 auto 2em auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.5em;
+    /* color : #1c1f4c; */
+}
+
+.socials {
+    width: 50%;
+    min-width: 150px;
+    margin: auto;
+    /* display : flex; */
+    /* justify-content: space-between; */
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: inherit;
+}
+
+i {
+    margin: 15px;
+
+}
+
+.card:hover {
+    background: linear-gradient(#037272, #0372725a);
+    color: white;
+}
+
+@media screen and (min-width: 992px) {
+  
+    .col{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 1em;
+    }
+}
