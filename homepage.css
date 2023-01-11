@@ -1,13 +1,19 @@
 body{
     font-family: 'Montserrat',sans-serif;
-   
+    background: linear-gradient(white,#fcce1784);
 }
 
 
 /* navbar */
+#navigationbar{
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
 
 .navbar{
     padding:1.5rem 2rem 1rem 3rem;
+
 }
 
 .navbar-brand{
@@ -47,6 +53,7 @@ h1{
     font-size:3.3rem;
     line-height: 1.5;
      font-weight: 900; 
+     color: #037272;
 }
 
 .contact-button{
@@ -64,10 +71,14 @@ h1{
 
 #linkcards{
     margin-top:5rem;
-    text-align: left;
+    text-align: center;
     
     
 }
+
+/* .card-body{
+    background-color: #fff;
+} */
 
 .card{
     border-radius: 20px;
@@ -81,6 +92,11 @@ h1{
 h5{
     font-weight: 600;
     margin-left: 0%;
+}
+
+.leavebutton{
+    border-radius:100px;
+    background-color: #1c1f4c;
 }
 
 
