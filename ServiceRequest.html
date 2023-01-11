@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Form to Email using Javascript</title>
+        <link rel = "stylesheet" href = "ServiceRequestStyle.css">
+    </head>
+    <body>
+        <div class = "container">
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <h3>Service Request</h3>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="text" id="room" placeholder="Room no." required>
+                <input type="text" id="enroll" placeholder="Enrollment no." required>
+                <input type="email" id="email" placeholder="Email id" required>
+                <input type="text" id="phone" placeholder="Phone no." required>
+                <textarea id="message" rows="4" placeholder="What is the issue?"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail()
+            {
+                Email.send({
+                    SecureToken: "053dd6fb-1fb8-42fa-a8fe-c08dd1fc711d",
+                    Host : "smtp.elasticemail.com",
+                    Username : "sarthakgupta.cs@gmail.com",
+                    Password : "A948546D8E4DE3361F042998B021E6ADE871",
+                    To : "sarthakgupta.univ@gmail.com",
+                    From : document.getElementById("email").value,
+                    Subject : "Service Request",
+                    Body : "Name: " + document.getElementById("name").value
+                        + "<br>Room no. : " + document.getElementById("room").value
+                        + "<br>Enrollment no. : " + document.getElementById("enroll").value
+                        + "<br>Email: " + document.getElementById("email").value
+                        + "<br>Phone no: " + document.getElementById("phone").value
+                        + "<br>message: " + document.getElementById("message").value
+                }).then(
+                message => alert(message) <!-- "Message Sent Successfully"-->
+                );
+            }
+        </script>
+    </body>
+</html>
