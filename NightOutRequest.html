@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class = "container">
-            <form onsubmit="sendEmail(); reset(); return false;">
+            <form id="app_form" onsubmit="submitForm(); sendEmail(); reset();  return false;">
                 <h3>Night Out Request</h3>
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="text" id="room" placeholder="Room no." required>
@@ -20,7 +20,10 @@
             </form>
         </div>
         <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src = "night_out.js"></script>
         <script>
+
             function sendEmail()
             {
                 Email.send({
@@ -28,7 +31,7 @@
                     Host : "smtp.elasticemail.com",
                     Username : "sarthakgupta.cs@gmail.com",
                     Password : "A948546D8E4DE3361F042998B021E6ADE871",
-                    To : "sarthakgupta.univ@gmail.com",
+                    To : "kaavya.bar@gmail.com",
                     From : document.getElementById("email").value,
                     Subject : "Night out Request",
                     Body : "Name: " + document.getElementById("name").value
