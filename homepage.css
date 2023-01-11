@@ -1,0 +1,94 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+   
+}
+
+
+/* navbar */
+
+.navbar{
+    padding:1.5rem 2rem 1rem 3rem;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat',sans-serif;
+    font-weight:700;
+    font-size:2rem;
+    padding:1rem 1rem 1rem 1rem;
+}
+
+.nav-item{
+    margin-left:2.5rem;
+    
+    /* padding:1rem 0 0 0; */
+    
+} 
+
+.nav-link:hover{
+    background-color: #00848c;
+}
+
+.nav-link{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    border-radius: 100px;
+}
+
+
+/* title*/
+#title{
+    padding: 5% 10%;
+    text-align: left;
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:3.3rem;
+    line-height: 1.5;
+     font-weight: 900; 
+}
+
+.contact-button{
+    margin: 5% 3% 5% 0;
+   
+}
+
+.scroll-button{
+    background-color: white;
+   margin: 2.5% 3% 5% 0;
+}
+
+
+/* cards section */
+
+#linkcards{
+    margin-top:5rem;
+    text-align: left;
+    
+    
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.card-item{
+    padding:3% 2%;
+}
+
+
+h5{
+    font-weight: 600;
+    margin-left: 0%;
+}
+
+
+/* footer */
+
+#footer{
+    text-align: center;
+    padding:3% 0 0% 0;
+    line-height: 4;
+}
+
