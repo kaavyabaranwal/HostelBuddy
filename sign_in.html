@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - HostelBuddy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-auth-compat.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <div class="person">
+            <img src="img/user (1).png" width="80px">
+        </div>
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email">
+
+        </div>
+
+        <div class="pwd">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your Password">
+        </div>
+
+        <button id="submit" onclick="signin()">Sign In</button>
+        <p>Not registered?
+            <span><a href = "index.html">Sign Up</a></span>
+        </p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
