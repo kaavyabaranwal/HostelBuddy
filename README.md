@@ -1,5 +1,7 @@
 # 🏠HostelBuddy
 
+## [View Project Here](https://kaavyabaranwal.github.io/HostelBuddy/)
+
 ### We aim to automate these issues:
 - Food menu of the week printed infront of mess.
 - Manual Complaint lodging(AC, carpenter issue) in hostel.
