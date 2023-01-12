@@ -62,10 +62,10 @@ h1{
 }
 
 .scroll-button{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
    margin: 2.5% 3% 5% 0;
+   font-weight: 500;
 }
-
 
 /* cards section */
 
@@ -107,4 +107,10 @@ h5{
     padding:3% 0 0% 0;
     line-height: 4;
 }
-
+a{
+    text-decoration: none;
+    color :#1c1f4c;
+}
+a:hover {
+    color :#037272;
+}
