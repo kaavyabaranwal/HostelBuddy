@@ -33,6 +33,7 @@ body{
 
 .nav-link:hover{
     background-color: #00848c;
+    color : white;
 }
 
 .nav-link{
