@@ -50,6 +50,14 @@ body{
     
 }
 
+.title-image{
+    width:35%;
+        /* transform: rotate(25deg); */
+        position: absolute;
+        right:15%; 
+        bottom: 2%;
+    }
+
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size:3.3rem;
@@ -135,3 +143,27 @@ a:hover {
     font-size: 18px;
     font-weight: bolder;
 }
+
+
+
+@media (max-width:1035px){
+
+    #title{
+      text-align: center;
+    }
+  
+    .title-image{
+      position:static;
+      transform: rotate(0);
+      width:80%;
+    }
+
+    .scroll-button{
+       visibility:hidden
+    }
+
+    #linkcards{
+        margin-top: 2rem;
+    }
+  
+  }
