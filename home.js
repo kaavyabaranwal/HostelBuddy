@@ -11,6 +11,6 @@ function night_out(){
     window.location="NightOutRequest.html";
 }
 
-function team(){
-    window.location="team.html";
+function github(){
+    window.location = "https://github.com/kaavyabaranwal/HostelBuddy";
 }
