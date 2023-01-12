@@ -4,8 +4,12 @@
         <meta charset="utf-8">
         <title>HostelBuddy - Service Request</title>
         <link rel = "stylesheet" href = "ServiceRequestStyle.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     </head>
     <body>
+        <div class="logo">
+            <a href="home.html"><img src="img/logo.png"></a>
+        </div>
         <div class = "container">
             <form id="service_request" onsubmit="submitForm(); sendEmail(); reset(); return false;">
                 <h3>Service Request</h3>
@@ -14,7 +18,7 @@
                 <input type="text" id="enroll" placeholder="Enrollment no." required>
                 <input type="email" id="email" placeholder="Email id" required>
                 <input type="text" id="phone" placeholder="Phone no." required>
-                <textarea id="message" rows="4" placeholder="What is the issue?"></textarea>
+                <textarea id="message" rows="6" placeholder="What is the issue?"></textarea>
                 <button type="submit">Send</button>
             </form>
         </div>

@@ -11,15 +11,18 @@
 
 .container{
     width: 100vw;
-    height: 150vh;
-    background: #037272;
+    height: 120vh;
+    /* background: #037272; */
+    background: linear-gradient(white,#037272);
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 
 form{
-    background: #edebd9;
+    /* background: #edebd9; */
+    /* background: linear-gradient(#fec20f, white); */
+    background: rgba(255, 255, 255, 0);
     display: flex;
     flex-direction: column;
     padding: 10vh 4vw;
@@ -33,6 +36,7 @@ form h3{
     font-weight: 700;
     margin-bottom: 15px;
     font-size : 30px;
+    text-align: center;
 
 }
 
@@ -41,8 +45,10 @@ form input, form textarea{
     margin: 10px 0;
     padding: 15px;
     outline: none;
-    background: #fec20f38;
+    background: #edebd9;
     font-size: 16px;
+    text-align: center;
+    border : 1px solid #037272;
 }
 
 
@@ -52,24 +58,31 @@ form button{
     background: #1c1f4c; /*#ff5361;*/
     color: #fff;
     font-size: 18px;
-    border: 1px solid #eee; /*border: 0;*/
+    border: 1px solid #1c1f4c; /*border: 0;*/
     outline: none;
     cursor: pointer;
     width: 100%;
     margin: 15px auto 0;
     border-radius: 0px;
-    box-shadow: 5px 5px 5px #eee;
+    /* box-shadow: 5px 5px 5px #eee; */
     text-shadow: none;
 }
 
 
 
 form button:hover {
-	background: #037272;
-	color: #fff;
-	border: 1px solid #eee;
+	background: #fec20f;
+	color: rgb(0, 0, 0);
+	border: 1px solid #fec20f;
 	/* border-radius: 20px; */
-	box-shadow: 5px 5px 5px #eee;
+	/* box-shadow: 5px 5px 5px #eee; */
 	text-shadow: none;
+}
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #03727200;
 }
 
