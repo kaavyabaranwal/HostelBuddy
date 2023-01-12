@@ -10,3 +10,7 @@ function service_request(){
 function night_out(){
     window.location="NightOutRequest.html";
 }
+
+function team(){
+    window.location="team.html";
+}
