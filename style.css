@@ -14,22 +14,25 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #037272;
+    /* background-color: #037272; */
+    background: linear-gradient(white,#037272);
 }
 
 .box {
     width: 400px;
     height: 60vh;
     /* border-radius: 10px; */
-    background-color: #edebd9;
+    background-color: #edebd900;
     padding: 5px 10px;
     /* display :flex;
     justify-content: center; */
+    margin-bottom: 8em;
 }
 
 .person {
     display: flex;
     align-items: center;
+    margin-bottom: 1em;
 }
 
 img {
@@ -45,7 +48,7 @@ label {
 input {
     width: 99%;
     /* border-radius: 10px; */
-    height: 28px;
+    height: 35px;
     /* padding : 8px 5px; */
     margin-bottom: 10px;
 }
@@ -53,7 +56,7 @@ input {
 #submit {
     width: 100%;
     background-color: #1c1f4c;
-    height: 32px;
+    height: 35px;
     border: 1px solid #1c1f4c;
     font-weight: 500;
     color: white;
@@ -77,4 +80,11 @@ p {
 a{
     cursor: pointer;
     font-weight: 500;
+}
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #03727200;
 }
