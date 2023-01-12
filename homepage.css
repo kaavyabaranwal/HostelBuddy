@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat',sans-serif;
     background: linear-gradient(white,#fcce1784);
+    /* color : #1c1f4c; */
 }
 
 
@@ -125,4 +126,11 @@ a{
 }
 a:hover {
     color :#037272;
+}
+
+#team h5{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
 }
